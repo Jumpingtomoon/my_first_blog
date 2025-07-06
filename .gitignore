@@ -1,6 +1,17 @@
-# Created by venv; see https://docs.python.org/3/library/venv.html
-*.pyc
-_pychache
-myvenv
-db.sqlite3
+﻿# Python
+__pycache__/
+*.py[cod]
+*.sqlite3
+*.env
+
+# System
 .DS_Store
+Thumbs.db
+
+# SSH
+eval*
+*.pub
+
+# IDE
+.vscode/
+.idea/
